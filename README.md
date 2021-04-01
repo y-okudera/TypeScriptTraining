@@ -72,3 +72,19 @@ hello.tsをコンパイルする場合
 
 version, description, authorなどは、任意の内容に書き換える。
 
+
+
+## 開発に使用するツール群をインストール
+
+`$ npm install typescript ts-loader webpack webpack-cli webpack-dev-server -D`
+
+
+
+| 名称               | 説明                                   |
+| ------------------ | -------------------------------------- |
+| typescript         | TypeScriptコンパイラ。                 |
+| ts-loader          | TypeScript用のローダー。               |
+| webpack            | JavaScriptモジュールバンドラー。       |
+| webpack-cli        | CLIでWebpackを動作させるためのツール。 |
+| webpack-dev-server | 開発環境用のWebサーバー。              |
+
