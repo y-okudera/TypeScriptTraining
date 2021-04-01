@@ -1,0 +1,2 @@
+# TypeScriptTraining
+TypeScriptの学習用リポジトリ
