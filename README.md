@@ -49,3 +49,26 @@ hello.tsをコンパイルする場合
 
 
 
+## package.jsonを生成
+
+`$ npm init --y`を実行する。
+
+以下のようなjsonファイルが生成される。
+
+```
+{
+  "name": "training-002",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+```
+
+version, description, authorなどは、任意の内容に書き換える。
+
