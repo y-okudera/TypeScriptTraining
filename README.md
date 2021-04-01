@@ -88,3 +88,17 @@ version, description, authorなどは、任意の内容に書き換える。
 | webpack-cli        | CLIでWebpackを動作させるためのツール。 |
 | webpack-dev-server | 開発環境用のWebサーバー。              |
 
+
+
+## webpack-dev-serverを起動
+
+package.jsonのscriptsに"start"を定義してあるため、`$ npm start`のみでwebpack-dev-serverを起動できる。
+
+webpack-dev-serverを起動後、ブラウザでローカルホストを確認する。
+
+http://localhost:8080/
+
+
+
+webpack-dev-serverを起動中にTypeScriptのソースコードを変更すると、自動的にRecompileしてブラウザのReloadが行われます。
+
