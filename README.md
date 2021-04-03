@@ -202,6 +202,10 @@ tsconfig.jsonを以下のように変更する。
   $ curl -X POST -H "Content-Type: application/json" -d '{"name":"Taro", "age":30}' http://localhost:3000/v1/users
   ```
 
+![Post API](https://raw.github.com/wiki/y-okudera/TypeScriptTraining/images/web_api_post.gif)
+
+
+
 - デプロイ用のビルド
 
   `$ npm run build`
